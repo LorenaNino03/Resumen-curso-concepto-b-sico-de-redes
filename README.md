@@ -91,3 +91,19 @@ Analogía: Este sistema es similar al telefónico, donde el código de país y d
 
 # 3. Asignación y Comunicación
 Interfaces de Red: La dirección se asigna a la tarjeta de interfaz de red (NIC) de un dispositivo
+
+# Capitulo 9 
+
+En el capitulo 9 nos habla sobre el direccionamiento IPv4, detallando los métodos de transmisión de datos denominados unidifusión, difusión y multidifusión.
+
+# 1. Modos de Transmisión IPv4
+Existen tres formas principales en las que un dispositivo de origen puede enviar un paquete, lo que determina la dirección IPv4 de destino:
+Unidifusión (Unicast): Es una comunicación uno a uno
+Difusión (Broadcast): Es una comunicación uno a todos. 
+Multidifusión (Multicast): Es una comunicación de uno a un grupo seleccionado
+
+También pudimos ver las clases que se tiene en IPV4, esta la clase A, B, C D y E
+
+# Capitulo 10- 11
+
+En estos capitulos pudimos ver 
