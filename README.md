@@ -106,4 +106,32 @@ También pudimos ver las clases que se tiene en IPV4, esta la clase A, B, C D y 
 
 # Capitulo 10- 11
 
-En estos capitulos pudimos ver 
+En estos capitulos pudimos ver como explican la transición tecnológica del protocolo IPv4 al IPv6, impulsada principalmente por el agotamiento global de las direcciones de red antiguas. Se destaca que el IPv6 ofrece un espacio de direccionamiento masivo de 128 bits y mejoras funcionales que facilitan el crecimiento del Internet de las cosas.
+
+El agotamiento de las direcciones IPv4 ha sido el motor principal para la adopción de IPv6. IPv4 tiene un límite teórico de 4,300 millones de direcciones, lo cual es insuficiente para el crecimiento global de Internet.
+
+Unas de las necesidades de IPV6 son:
+- Agotamiento por región
+- Limitaciones de NAT
+- Capacidad de IPv6
+
+Pudimos observar el formato del IPV6, son significativamente más largas y se representan de forma distinta a las IPv4:
+- Hexadecimal
+- Hextetos
+- Longitud
+
+# Resumen cap, 12, 13,14,15,16 y 17
+En estos capitulos explican el funcionamiento de los enrutadores como piezas fundamentales para la comunicación entre diferentes redes y el acceso a Internet. Se detalla cómo estos dispositivos actúan como puertas de enlace predeterminadas,profundiza en procesos técnicos como la resolución de direcciones (ARP), el funcionamiento de los servidores DHCP para la asignación de redes privadas y la segmentación de dominios de difusión. Además, se describe cómo las tablas de enrutamiento guían los paquetes a través de la mejor ruta posible entre redes locales y externas.
+# El Rol del Enrutador como Puerta de Enlace (Gateway)
+Un enrutador actúa como el punto de salida de una red local hacia otras redes o Internet
+# Conectividad entre redes: 
+Cada interfaz del enrutador está conectada a una red distinta, y la dirección IPv4 de esa interfaz identifica la red local conectada directamente a ella 
+# Dirección de Puerta de Enlace: 
+Para que un host se comunique fuera de su red, debe conocer la dirección IPv4 de la interfaz del enrutador que está en su propia red local. Esta dirección se puede configurar de forma estática o recibirse dinámicamente a través de DHCP
+# Diferencia en la Comunicación: Local vs. Remota
+El comportamiento de un host cambia drásticamente dependiendo de si el destino está en su misma red o no:
+Destino en la misma red: El host utiliza el Protocolo de Resolución de Direcciones (ARP) para encontrar la dirección MAC del dispositivo de destino
+# El Proceso de Enrutamiento y Reenvío
+Cuando un enrutador recibe una trama, realiza los siguientes pasos para mover el mensaje:
+En resumen, el proceso de enrutamiento es una cadena de encapsulación y desencapsulación donde la dirección IP de origen y destino se mantienen constantes, pero las direcciones MAC cambian en cada "salto" entre enrutadores hasta llegar al destino final
+ 
